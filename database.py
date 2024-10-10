@@ -45,7 +45,7 @@ def existing_user(cursor, message_id, username = None):
         return False
 
 if __name__ == "__main__":
-    mydb = dbconnector.connect(host="localhost", user="thebank", passwd="project_bank", database = "intern_project")
+    mydb = dbconnector.connect(host="<your_host/localhost>", user="<database_username>", passwd="<acess- password>", database = "<database__name>")
     if mydb.is_connected():
         mycursor = mydb.cursor()
         # if query == "SafityIssue502":
