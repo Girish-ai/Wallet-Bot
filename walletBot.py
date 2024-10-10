@@ -4,8 +4,8 @@ import asyncio
 import datetime as dt
 from database import *
 
-TOKEN = ""
-BOT_USERNAME = "@The_ATM_bot"
+TOKEN = "<ENTER YOUR BOT TOCKEN HERE>"
+BOT_USERNAME = "<BOT USERNAME>"
 
 update = tex.Updater(TOKEN,  asyncio.Queue())
 
